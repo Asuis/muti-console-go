@@ -6,8 +6,9 @@ import (
 	"log"
 	"net"
 
+	pb "helloworld"
+
 	proto "github.com/golang/protobuf/proto"
-	pb "github.com/muti-console-go/helloworld/helloworld"
 	"google.golang.org/grpc"
 )
 
